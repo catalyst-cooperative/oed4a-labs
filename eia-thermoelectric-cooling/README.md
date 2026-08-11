@@ -1,20 +1,12 @@
 # EIA Thermoelectric Cooling Water Data
 
-I want to download the EIA thermoelectric cooling water data from the EIA website. The data is available at the following link:
+The EIA publishes data about thermoelectric cooling water use The data is available on
+this page:
 
 https://www.eia.gov/electricity/data/water/
 
-Every year from 2014-2024 has two spreadsheets available for download linked from that page.
-One file is an aggregated summary of the data, the other is a more detailed dataset.
-I am specifically interested in the detailed data, not the summarized data.
-I want all of the detailed datasets for the years 2014-2024 combined into a single file suitable for analysis with Python.
-Write a script that can be run to download all of the detailed Excel spreadsheets for the years 2014-2024 and concatenate the tabular data across years.
-Keep the spreadsheets in their own local directory for reference, but the final output should be a single CSV file that contains all of the detailed data combined.
-If there are multiple tabs in the spreadhseets, they should probably each be combined into their own individual CSV files.
-You may need to rename or reformat the columns to make the structures consistent across all the years of data.
-Write a python script to accomplish this task.
-It should be possible to re-run the script to update the data if new years are added or if the data changes.
-Fill in the "dataset documentatino" below with both table and column level descriptions for the combined output.
+The script in this directory downloads all of the spreadsheets and tries to convert them
+into a single file with all the detailed data across all years.
 
 ## Dataset documentation
 
